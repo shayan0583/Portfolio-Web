@@ -1,0 +1,42 @@
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* سه ستون روی دسکتاپ */
+  gap: 16px;
+  padding: 16px;
+  justify-items: center;
+  align-items: start;
+}
+
+.project-gallery img {
+  width: 100%;
+  height: auto; /* نسبت تصویر حفظ میشه */
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.project-gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* ------------------------
+   Responsive برای موبایل
+------------------------ */
+@media (max-width: 768px) {
+  .project-gallery {
+    grid-template-columns: 1fr; /* یک ستون = همه تصاویر زیر هم */
+  }
+}
+.hero-banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* جلوگیری از کشیده شدن بیرون */
+}
+
+.hero-banner img {
+  width: 100%;        /* عرض کامل container */
+  max-height: 60vh;   /* حداکثر ارتفاع = 60% از ارتفاع viewport */
+  height: auto;       /* نسبت تصویر حفظ میشه */
+  object-fit: contain; /* تصویر کراپ نشه و نسبت حفظ بشه */
+}

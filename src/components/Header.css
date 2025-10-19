@@ -1,0 +1,9 @@
+
+.nav-link:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
