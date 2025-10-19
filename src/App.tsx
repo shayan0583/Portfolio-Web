@@ -32,18 +32,18 @@ const projects: Project[] = [
   {
     id: 2,
     title: "Dotamid - Responsive",
-    image: "/src/public/Images/Dotamid/Slide 16_9 - 2.png",
+    image: "/Images/Dotamid/Slide 16_9 - 2.png",
     category: "UI",
     description: "",
     additionalImages: [
-    "/src/public/Images/Dotamid/iphone 15.png",
-    "/src/public/Images/Dotamid/iphone 15 (1).png"
+    "/Images/Dotamid/iphone 15.png",
+    "/Images/Dotamid/iphone 15 (1).png"
     ]
   },
   {
     id: 3,
     title: "Front End Course Poster",
-    image: "/src/public/Images/Front poster without logo.jpg",
+    image: "/Images/Front poster without logo.jpg",
     category: "Poster Design",
     description: "In this portfolio version, original logos have been replaced with sample logos to respect brand privacy and maintain confidentiality.",
     additionalImages: [
@@ -52,7 +52,7 @@ const projects: Project[] = [
   {
     id: 4,
     title: "AbrArvan Visit Poster",
-    image: "/src/public/Images/Abrarvan visit without logo.jpg",
+    image: "/Images/Abrarvan visit without logo.jpg",
     category: "Poster Design",
     description: "In this portfolio version, original logos have been replaced with sample logos to respect brand privacy and maintain confidentiality.",
     additionalImages: [
@@ -61,7 +61,7 @@ const projects: Project[] = [
   {
     id: 5,
     title: "Soft Skill Course Poster",
-    image: "/src/public/Images/Maharat Narm Course Poster without logo.jpg",
+    image: "/Images/Maharat Narm Course Poster without logo.jpg",
     category: "Poster Design",
     description: "In this portfolio version, original logos have been replaced with sample logos to respect brand privacy and maintain confidentiality.",
     additionalImages: [
@@ -70,7 +70,7 @@ const projects: Project[] = [
   {
     id: 6,
     title: "Computer Muesum Visiting Poster",
-    image: "/src/public/Images/Computer Museum Visiting Without logoes.jpg",
+    image: "/Images/Computer Museum Visiting Without logoes.jpg",
     category: "Poster Design",
     description: "In this portfolio version, original logos have been replaced with sample logos to respect brand privacy and maintain confidentiality.",
     additionalImages: [
