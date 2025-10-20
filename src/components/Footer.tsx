@@ -8,7 +8,15 @@ export function Footer() {
         
         <div className="flex gap-6">
           <a
-            href="https://instagram.com"
+             href="mailto:shayanabiar@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nav-link"
+          >
+            shayanabiar@gmail.com
+          </a>
+          <a
+            href="https://www.instagram.com/sha0583/"
             target="_blank"
             rel="noopener noreferrer"
             className="nav-link"
@@ -26,7 +34,7 @@ export function Footer() {
             <Linkedin className="w-5 h-5" />
           </a>
           <a
-            href="https://behance.net"
+            href="https://www.behance.net/shayanabyar"
             target="_blank"
             rel="noopener noreferrer"
             className="nav-link"
