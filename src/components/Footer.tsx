@@ -4,7 +4,11 @@ export function Footer() {
   return (
     <footer className="w-full py-12 px-4 sm:px-8 border-t border-border mt-auto">
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
-        <p>Shayan Abyar</p>
+          <img 
+            src='/public/Images/Logo.png' 
+            alt="Logo" 
+            className="w-10 h-10 object-contain" 
+          />
         
         <div className="flex gap-6">
           <a
