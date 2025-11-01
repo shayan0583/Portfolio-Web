@@ -62,6 +62,20 @@ const projects: Project[] = [
   },
   {
     id: 5,
+    title: "Decode Cup — Event Visual Identity",
+    image: "/Images/Decode Cup 3/Cover Decode Cup3.jpg",
+    category: "Event Design",
+    description: "Decode Cup is a programming competition series held across different universities. The third edition was organized in collaboration with Khatam University, where I worked as the graphic designer for the event. I designed the visual materials including ID cards for participants (C++ and Python teams), staff badges for mentors, judges, and supervisors, and a custom T-shirt for the organizing team. Some visuals were adapted with my personal logo for portfolio display. Tools: Adobe Illustrator, Photoshop.",
+    additionalImages: ['/Images/Decode Cup 3/Mockup Cpp.jpg',
+      '/Images/Decode Cup 3/Mockup Python.jpg',
+      '/Images/Decode Cup 3/Mockup Mentor.jpg',
+      '/Images/Decode Cup 3/Mockup refree.jpg',
+      '/Images/Decode Cup 3/Mockup Sarparast.jpg',
+      '/Images/Decode Cup 3/Mockup Tshirt.jpg'
+    ]
+  },
+  {
+    id: 6,
     title: "Soft Skill Course Poster",
     image: "/Images/Maharat Narm Course Poster without logo.jpg",
     category: "Poster Design",
@@ -70,7 +84,7 @@ const projects: Project[] = [
     ]
   },
   {
-    id: 6,
+    id: 7,
     title: "Computer Muesum Visiting Poster",
     image: "/Images/Computer Museum Visiting Without logoes.jpg",
     category: "Poster Design",

@@ -19,7 +19,7 @@ interface PortfolioProps {
 export function Portfolio({ projects, onProjectClick }: PortfolioProps) {
   const [activeFilter, setActiveFilter] = useState("All");
 
-  const filters = ["All", "UI", "Poster Design"];
+  const filters = ["All", "UI", "Poster Design" , "Event Design"];
 
   const filteredProjects = activeFilter === "All"
     ? projects
