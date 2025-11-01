@@ -27,7 +27,8 @@ const projects: Project[] = [
     additionalImages: [
       "/Images/Mental Health/iphone 15-1.jpg",
       "/Images/Mental Health/iphone 16.jpg",
-      "/Images/Mental Health/iphone 15.jpg"
+      "/Images/Mental Health/iphone 15.jpg",
+      "/Images/Mental Health/Hamdam.jpg"
     ]
   },
   {
