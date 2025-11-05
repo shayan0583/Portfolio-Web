@@ -1,21 +1,12 @@
 .project-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* سه ستون روی دسکتاپ */
-  gap: 16px;
-  padding: 16px;
-  justify-items: center;
-  align-items: start;
+  transition: all 0.3s ease;
 }
-
 .project-gallery img {
-  width: 100%;
-  height: auto; /* نسبت تصویر حفظ میشه */
   border-radius: 12px;
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease;
 }
-
 .project-gallery img:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 /* ------------------------

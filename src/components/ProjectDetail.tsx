@@ -3,11 +3,12 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Button } from "./ui/button";
 import { Footer } from "./Footer";
 import "./ProjectDetail.css";
+
 interface Project {
   id: number;
   title: string;
   image: string;
-  tag: string;
+  tag?: string;
   category: string;
   description: string;
   additionalImages?: string[];
@@ -41,32 +42,53 @@ export function ProjectDetail({ project, onBack }: ProjectDetailProps) {
             {project.description}
           </p>
 
-          <div className="hero-banner">
+          {/* تصویر اصلی پروژه */}
+          <div className="hero-banner mb-12">
             <ImageWithFallback
               src={project.image}
               alt={project.title}
-              className="w-full h-auto object-contain"
+              className="w-full h-auto rounded-lg shadow-md object-contain"
             />
           </div>
 
-          {project.additionalImages && project.additionalImages.length > 0 && (
-            <div className="project-gallery">
-              {project.additionalImages.map((image, index) => (
-                <div
-                  key={index}
-                >
-                  <ImageWithFallback
-                    src={image}
-                    alt={`${project.title} - Image ${index + 2}`}
-                    className="w-full h-auto object-contain"
-                  />
-                </div>
-              ))}
-            </div>
-          )}
+          {/* گالری تصاویر اضافه */}
+{project.additionalImages && project.additionalImages.length > 0 && (
+  <div
+    className="project-gallery flex flex-wrap justify-center gap-6 mt-16 px-4"
+    style={{
+      alignItems: "flex-start",
+    }}
+  >
+    {project.additionalImages.map((image, index) => (
+      <div
+        key={index}
+        className="rounded-lg shadow-md overflow-visible"
+        style={{
+          flex: "0 1 auto",
+          maxWidth: "800px", // حداکثر عرض هر عکس
+        }}
+      >
+        <img
+          src={image}
+          alt={`${project.title} - Image ${index + 2}`}
+          style={{
+            width: "auto",
+            height: "auto",
+            maxWidth: "100%",
+            maxHeight: "90vh",
+            objectFit: "contain",
+            display: "block",
+          }}
+        />
+      </div>
+    ))}
+  </div>
+)}
+
+
         </div>
       </main>
-      <Footer />
+
     </div>
   );
 }

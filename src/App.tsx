@@ -1,11 +1,11 @@
-import { useState } from "react";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Portfolio } from "./components/Portfolio";
 import { Footer } from "./components/Footer";
 import { ProjectDetail } from "./components/ProjectDetail";
 import { About } from "./components/About";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useNavigate, useParams } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 interface Project {
@@ -38,9 +38,12 @@ const projects: Project[] = [
     category: "UI",
     description: "",
     additionalImages: [
-    "/Images/Dotamid/iphone 15.png",
-    "/Images/Dotamid/iphone 16.png",
-    "/Images/Dotamid/Apple iMac Retina.png"
+    "/Images/Dotamid/iphone 15.jpg",
+    "/Images/Dotamid/iphone 17.jpg",
+    "/Images/Dotamid/iphone 16-2.jpg",
+    "/Images/Dotamid/Events UI-Desktop (1).jpg",
+    "/Images/Dotamid/Web Mockup 27.jpg"
+
     ]
   },
   {
@@ -96,39 +99,47 @@ const projects: Project[] = [
  
 ];
 
-export default function App() {
-  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+function ProjectDetailWrapper() {
+  const { id } = useParams();
+  const project = projects.find((p) => p.id.toString() === id);
+  const navigate = useNavigate();
 
-  if (selectedProject) {
-    return (
-      <ProjectDetail
-      project={selectedProject}
-      onBack={() => setSelectedProject(null)}
-      />
-    );
-  }
+  if (!project) return <div className="p-10 text-center">Project not found.</div>;
+
+  return <ProjectDetail project={project} onBack={() => navigate("/")} />;
+}
+function AppContent() {
+  const navigate = useNavigate();
 
   return (
-    <Router>
-      <div className="min-h-screen flex flex-col">
-        <Header />
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Hero />
-                <Portfolio  
-                  projects={projects}
-                  onProjectClick={setSelectedProject}
-                />
-              </>
-            }
-          />
-          <Route path="/about" element={<About />} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <div className="min-h-screen flex flex-col">
+      <ScrollToTop />
+      <Header />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Hero />
+              <Portfolio
+                projects={projects}
+                onProjectClick={(project) => navigate(`/project/${project.id}`)}
+              />
+            </>
+          }
+        />
+        <Route path="/about" element={<About />} />
+        <Route path="/project/:id" element={<ProjectDetailWrapper />} />
+      </Routes>
+      <Footer />
+    </div>
   );
 }
+
+export default function App() {
+  return (
+    <Router>
+      <AppContent />
+    </Router>
+  );
+  }
