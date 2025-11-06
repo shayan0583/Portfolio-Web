@@ -20,52 +20,24 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "Hamdam – Mental Health App",
-    image: "/Images/Mental Health/Slide 16_9 - 1.png",
-    category: "UI",
-    description : "Hamdam is a calm and minimal mobile app designed to support mental well-being and emotional balance. The interface focuses on simplicity, soft colors, and intuitive navigation to create a relaxing experience for users.",
+    title: "Computer Muesum Visiting Poster",
+    image: "/Images/Computer Museum Visiting Without logoes.jpg",
+    category: "Poster Design",
+    description: "In this portfolio version, original logos have been replaced with sample logos to respect brand privacy and maintain confidentiality.",
     additionalImages: [
-      "/Images/Mental Health/iphone 15-1.jpg",
-      "/Images/Mental Health/iphone 16.jpg",
-      "/Images/Mental Health/iphone 15.jpg",
-      "/Images/Mental Health/Hamdam.jpg"
     ]
   },
-  {
+    {
     id: 2,
-    title: "Dotamid - Responsive",
-    image: "/Images/Dotamid/Slide 16_9 - 2.png",
-    category: "UI",
-    description: "",
+    title: "Soft Skill Course Poster",
+    image: "/Images/Maharat Narm Course Poster without logo.jpg",
+    category: "Poster Design",
+    description: "In this portfolio version, original logos have been replaced with sample logos to respect brand privacy and maintain confidentiality.",
     additionalImages: [
-    "/Images/Dotamid/iphone 15.jpg",
-    "/Images/Dotamid/iphone 17.jpg",
-    "/Images/Dotamid/iphone 16-2.jpg",
-    "/Images/Dotamid/Events UI-Desktop (1).jpg",
-    "/Images/Dotamid/Web Mockup 27.jpg"
-
     ]
   },
   {
     id: 3,
-    title: "Front End Course Poster",
-    image: "/Images/Front poster without logo.jpg",
-    category: "Poster Design",
-    description: "In this portfolio version, original logos have been replaced with sample logos to respect brand privacy and maintain confidentiality.",
-    additionalImages: [
-    ]
-  },
-  {
-    id: 4,
-    title: "AbrArvan Visit Poster",
-    image: "/Images/Abrarvan visit without logo.jpg",
-    category: "Poster Design",
-    description: "In this portfolio version, original logos have been replaced with sample logos to respect brand privacy and maintain confidentiality.",
-    additionalImages: [
-    ]
-  },
-  {
-    id: 5,
     title: "Decode Cup — Event Visual Identity",
     image: "/Images/Decode Cup 3/Cover Decode Cup3.jpg",
     category: "Event Design",
@@ -79,21 +51,63 @@ const projects: Project[] = [
     ]
   },
   {
-    id: 6,
-    title: "Soft Skill Course Poster",
-    image: "/Images/Maharat Narm Course Poster without logo.jpg",
+    id: 4,
+    title: "AbrArvan Visit Poster",
+    image: "/Images/Abrarvan visit without logo.jpg",
+    category: "Poster Design",
+    description: "In this portfolio version, original logos have been replaced with sample logos to respect brand privacy and maintain confidentiality.",
+    additionalImages: [
+    ]
+  },
+    {
+    id: 5,
+    title: "Front End Course Poster",
+    image: "/Images/Front poster without logo.jpg",
     category: "Poster Design",
     description: "In this portfolio version, original logos have been replaced with sample logos to respect brand privacy and maintain confidentiality.",
     additionalImages: [
     ]
   },
   {
-    id: 7,
-    title: "Computer Muesum Visiting Poster",
-    image: "/Images/Computer Museum Visiting Without logoes.jpg",
-    category: "Poster Design",
-    description: "In this portfolio version, original logos have been replaced with sample logos to respect brand privacy and maintain confidentiality.",
+    id: 6,
+    title: "Dotamid - Responsive",
+    image: "/Images/Dotamid/Slide 16_9 - 2.png",
+    category: "UI",
+    description: "",
     additionalImages: [
+    "/Images/Dotamid/iphone 15.jpg",
+    "/Images/Dotamid/iphone 18.jpg",
+    "/Images/Dotamid/iphone 16.jpg",
+    "/Images/Dotamid/Events UI-Desktop (1).jpg",
+    "/Images/Dotamid/Web Mockup 27.jpg"
+
+    ]
+  },
+  {
+    id: 7,
+    title: "Hamdam – Mental Health App",
+    image: "/Images/Mental Health/Slide 16_9 - 1.png",
+    category: "UI",
+    description : "Hamdam is a calm and minimal mobile app designed to support mental well-being and emotional balance. The interface focuses on simplicity, soft colors, and intuitive navigation to create a relaxing experience for users.",
+    additionalImages: [
+      "/Images/Mental Health/iphone 15-1.jpg",
+      "/Images/Mental Health/iphone 16.jpg",
+      "/Images/Mental Health/iphone 15.jpg",
+      "/Images/Mental Health/Hamdam.jpg"
+    ]
+  },
+    {
+    id: 8,
+    title: "MOS.CBEDARD — Responsive Website Design",
+    image: "/Images//mos/Project Thumeb.jpg",
+    category: "UI",
+    description : "",
+    additionalImages: [
+      "/Images/mos/mos mobile 1.jpg",
+      "/Images/mos/mos mobile 2.jpg",
+      "/Images/mos/mos mobile 3.jpg",
+      "/Images/mos/Home.jpg",
+      "/Images/mos/Job Posting.jpg"
     ]
   }
  
