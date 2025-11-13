@@ -85,15 +85,20 @@ const projects: Project[] = [
   },
   {
     id: 7,
-    title: "Hamdam – Mental Health App",
-    image: "/Images/Mental Health/Slide 16_9 - 1.png",
+    title: "Hamdam – Mental Health App + Landing",
+    image: "/Images/Mental Health/Cover (1).jpg",
     category: "UI",
     description : "Hamdam is a calm and minimal mobile app designed to support mental well-being and emotional balance. The interface focuses on simplicity, soft colors, and intuitive navigation to create a relaxing experience for users.",
     additionalImages: [
-      "/Images/Mental Health/iphone 15-1.jpg",
-      "/Images/Mental Health/iphone 16.jpg",
-      "/Images/Mental Health/iphone 15.jpg",
-      "/Images/Mental Health/Hamdam.jpg"
+      "/Images/Mental Health/Start.jpg",
+      "/Images/Mental Health/Home.jpg",
+      "/Images/Mental Health/Goal.jpg",
+      "/Images/Mental Health/Flower.jpg",
+      "/Images/Mental Health/Doctor.jpg",
+      "/Images/Mental Health/Music.jpg",
+      "/Images/Mental Health/Landing - Desktop-2.jpg",
+      "/Images/Mental Health/Landing - Desktop-1.jpg",
+      "/Images/Mental Health/Landing - Desktop.jpg"
     ]
   },
     {
