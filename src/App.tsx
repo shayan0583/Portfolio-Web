@@ -15,6 +15,7 @@ interface Project {
   category: string;
   description: string;
   additionalImages?: string[];
+  fileLink?: string;
 }
 
 const projects: Project[] = [
@@ -99,7 +100,8 @@ const projects: Project[] = [
       "/Images/Mental Health/Landing - Desktop-2.jpg",
       "/Images/Mental Health/Landing - Desktop-1.jpg",
       "/Images/Mental Health/Landing - Desktop.jpg"
-    ]
+    ],
+    fileLink : "https://www.figma.com/design/LjhIUWb3HLK4ZSyo3uGyMx/project---gp-175?node-id=543-8447&t=qcShRsA9TuvmRl4p-1"
   },
     {
     id: 8,

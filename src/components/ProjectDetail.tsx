@@ -12,6 +12,7 @@ interface Project {
   category: string;
   description: string;
   additionalImages?: string[];
+  fileLink?: string;
 }
 
 interface ProjectDetailProps {
@@ -41,6 +42,34 @@ export function ProjectDetail({ project, onBack }: ProjectDetailProps) {
           <p className="text-muted-foreground mb-12 sm:mb-16">
             {project.description}
           </p>
+       {project.fileLink && (
+  <div className="mb-12">
+    <h3 className="text-lg font-semibold mb-3">Project File</h3>
+    <a
+      href={project.fileLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium py-2 px-4 rounded-lg transition-colors"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth={2}
+        stroke="currentColor"
+        className="w-5 h-5"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M13.828 10.172a4 4 0 010 5.656m1.414-7.07a6 6 0 010 8.486M11 16h2a2 2 0 002-2v-1m-4 3a2 2 0 01-2-2V9m0 7H9a2 2 0 01-2-2v-1m0 3a2 2 0 002 2h2"
+        />
+      </svg>
+      View Project
+    </a>
+  </div>
+)}
+
 
           {/* تصویر اصلی پروژه */}
           <div className="hero-banner mb-12">
