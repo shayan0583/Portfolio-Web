@@ -82,7 +82,8 @@ const projects: Project[] = [
     "/Images/Dotamid/Events UI-Desktop (1).jpg",
     "/Images/Dotamid/Web Mockup 27.jpg"
 
-    ]
+    ],
+    fileLink : "https://www.figma.com/design/01knUGBXOAiLS56F0qhEb6/Dotamid?node-id=44-17&t=PktX8ZVgop0jNJbq-1"
   },
   {
     id: 7,
