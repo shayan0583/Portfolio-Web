@@ -16,6 +16,7 @@ interface Project {
   description: string;
   additionalImages?: string[];
   fileLink?: string;
+  fileLink2?: string;
   role?:string;
 }
 
@@ -92,7 +93,8 @@ const projects: Project[] = [
       "/Images/Mental Health/Landing - Desktop-1.jpg",
       "/Images/Mental Health/Landing - Desktop.jpg"
     ],
-    fileLink : "https://www.figma.com/design/LjhIUWb3HLK4ZSyo3uGyMx/project---gp-175?node-id=543-8447&t=qcShRsA9TuvmRl4p-1"
+    fileLink : "https://www.figma.com/design/LjhIUWb3HLK4ZSyo3uGyMx/project---gp-175?node-id=543-8447&t=qcShRsA9TuvmRl4p-1",
+    fileLink2:"https://www.linkedin.com/posts/shayan-abyar-87b46832a_aefaezaepaevahyabraezaepaeqaefabragpaepaezaeqaezahy-activity-7408116861164474368-VNVa?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFMBcN8B91xG6o9Gp7UM3Ycgl9ClGjwLWdk"
   },
   {
     id: 7,
@@ -127,7 +129,7 @@ Gained valuable experience in teamwork and creative collaboration`,
       '/Images/SRPC/Location 2.jpg',
       '/Images/SRPC/Id Card abyar.jpg'
     ],
-    fileLink : "https://www.linkedin.com/posts/shayan-abyar-87b46832a_%D8%AA%D8%AC%D8%B1%D8%A8%D9%87%D8%A7%DB%8C-%D8%AC%D8%B0%D8%A7%D8%A8-%D8%A7%D8%B2-%DA%A9%D8%A7%D8%B1-%D8%AA%DB%8C%D9%85%DB%8C-%D8%AF%D8%B1-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%86%D9%88%DB%8C%D8%B3%DB%8C-activity-7409345970850873344-kkBn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFMBcN8B91xG6o9Gp7UM3Ycgl9ClGjwLWdk"
+    fileLink2 : "https://www.linkedin.com/posts/shayan-abyar-87b46832a_%D8%AA%D8%AC%D8%B1%D8%A8%D9%87%D8%A7%DB%8C-%D8%AC%D8%B0%D8%A7%D8%A8-%D8%A7%D8%B2-%DA%A9%D8%A7%D8%B1-%D8%AA%DB%8C%D9%85%DB%8C-%D8%AF%D8%B1-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%86%D9%88%DB%8C%D8%B3%DB%8C-activity-7409345970850873344-kkBn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFMBcN8B91xG6o9Gp7UM3Ycgl9ClGjwLWdk",
   }
   
 ];
