@@ -20,7 +20,7 @@ export function Footer() {
             shayanabiar@gmail.com
           </a>
           <a
-            href="https://www.instagram.com/sha0583/"
+            href="https://www.instagram.com/uidesignshayan/"
             target="_blank"
             rel="noopener noreferrer"
             className="nav-link"
