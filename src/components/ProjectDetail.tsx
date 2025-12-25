@@ -13,6 +13,7 @@ interface Project {
   description: string;
   additionalImages?: string[];
   fileLink?: string;
+  role?:string;
 }
 
 interface ProjectDetailProps {

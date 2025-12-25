@@ -16,6 +16,7 @@ interface Project {
   description: string;
   additionalImages?: string[];
   fileLink?: string;
+  role?:string;
 }
 
 const projects: Project[] = [
@@ -28,17 +29,8 @@ const projects: Project[] = [
     additionalImages: [
     ]
   },
-    {
-    id: 2,
-    title: "Soft Skill Course Poster",
-    image: "/Images/Maharat Narm Course Poster without logo.jpg",
-    category: "Poster Design",
-    description: "In this portfolio version, original logos have been replaced with sample logos to respect brand privacy and maintain confidentiality.",
-    additionalImages: [
-    ]
-  },
   {
-    id: 3,
+    id: 2,
     title: "Decode Cup — Event Visual Identity",
     image: "/Images/Decode Cup 3/Cover Decode Cup3.jpg",
     category: "Event Design",
@@ -52,7 +44,7 @@ const projects: Project[] = [
     ]
   },
   {
-    id: 4,
+    id: 3,
     title: "AbrArvan Visit Poster",
     image: "/Images/Abrarvan visit without logo.jpg",
     category: "Poster Design",
@@ -60,8 +52,8 @@ const projects: Project[] = [
     additionalImages: [
     ]
   },
-    {
-    id: 5,
+  {
+    id: 4,
     title: "Front End Course Poster",
     image: "/Images/Front poster without logo.jpg",
     category: "Poster Design",
@@ -70,7 +62,7 @@ const projects: Project[] = [
     ]
   },
   {
-    id: 6,
+    id: 5,
     title: "Dotamid - Responsive",
     image: "/Images/Dotamid/Slide 16_9 - 2.png",
     category: "UI",
@@ -86,7 +78,7 @@ const projects: Project[] = [
     fileLink : "https://www.figma.com/design/01knUGBXOAiLS56F0qhEb6/Dotamid?node-id=44-17&t=PktX8ZVgop0jNJbq-1"
   },
   {
-    id: 7,
+    id: 6,
     title: "Hamdam – Mental Health App + Landing",
     image: "/Images/Mental Health/Cover (1).jpg",
     category: "UI",
@@ -104,8 +96,8 @@ const projects: Project[] = [
     ],
     fileLink : "https://www.figma.com/design/LjhIUWb3HLK4ZSyo3uGyMx/project---gp-175?node-id=543-8447&t=qcShRsA9TuvmRl4p-1"
   },
-    {
-    id: 8,
+  {
+    id: 7,
     title: "MOS.CBEDARD — Responsive Website Design",
     image: "/Images//mos/Project Thumeb.jpg",
     category: "UI",
@@ -117,8 +109,29 @@ const projects: Project[] = [
       "/Images/mos/Home.jpg",
       "/Images/mos/Job Posting.jpg"
     ]
+  },
+  {
+    id: 8,
+    title: "SRPC — Graphic Design (Media Team Lead)",
+    image: "/Images/SRPC/SRPC Cover.jpg",
+    category: "Event Design",
+    description: `Worked as a Graphic Designer for the Student Relay Programming Competition.
+Designed posters and ID cards based on a consistent visual identity.
+Contributed to creating a clear and unified visual style for the event.
+Collaborated with the team in a fast-paced, team-oriented environment.
+Gained valuable experience in teamwork and creative collaboration`,
+    additionalImages: [
+      '/Images/SRPC/14 Day Countdown Poster .jpg',
+      '/Images/SRPC/Awards.jpg',
+      '/Images/SRPC/7 Day Countdown Poster .jpg',
+      '/Images/SRPC/Note.jpg',
+      '/Images/SRPC/Sign Guide Poster.jpg',
+      '/Images/SRPC/Location 2.jpg',
+      '/Images/SRPC/Id Card abyar.jpg'
+    ],
+    fileLink : "https://www.linkedin.com/posts/shayan-abyar-87b46832a_%D8%AA%D8%AC%D8%B1%D8%A8%D9%87%D8%A7%DB%8C-%D8%AC%D8%B0%D8%A7%D8%A8-%D8%A7%D8%B2-%DA%A9%D8%A7%D8%B1-%D8%AA%DB%8C%D9%85%DB%8C-%D8%AF%D8%B1-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%86%D9%88%DB%8C%D8%B3%DB%8C-activity-7409345970850873344-kkBn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFMBcN8B91xG6o9Gp7UM3Ycgl9ClGjwLWdk"
   }
- 
+  
 ];
 
 function ProjectDetailWrapper() {
