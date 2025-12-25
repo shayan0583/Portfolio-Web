@@ -88,8 +88,6 @@ const projects: Project[] = [
       "/Images/Mental Health/Slice 11.jpg",
       "/Images/Mental Health/Slice 14.jpg",
       "/Images/Mental Health/Slice 15.jpg",
-      "/Images/Mental Health/Doctor.jpg",
-      "/Images/Mental Health/Music.jpg",
       "/Images/Mental Health/Landing - Desktop-2.jpg",
       "/Images/Mental Health/Landing - Desktop-1.jpg",
       "/Images/Mental Health/Landing - Desktop.jpg"
