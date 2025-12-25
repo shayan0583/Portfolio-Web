@@ -103,11 +103,14 @@ const projects: Project[] = [
     category: "UI",
     description : "",
     additionalImages: [
-      "/Images/mos/mos mobile 1.jpg",
-      "/Images/mos/mos mobile 2.jpg",
-      "/Images/mos/mos mobile 3.jpg",
-      "/Images/mos/Home.jpg",
-      "/Images/mos/Job Posting.jpg"
+      "/Images/mos/1.jpg",
+      "/Images/mos/2.jpg",
+      "/Images/mos/3.jpg",
+      "/Images/mos/4.jpg",
+      "/Images/mos/5.jpg",
+      "/Images/mos/6.jpg",
+      "/Images/mos/7.jpg",
+      "/Images/mos/8.jpg"
     ]
   },
   {
