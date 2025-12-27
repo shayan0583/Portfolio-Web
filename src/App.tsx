@@ -119,10 +119,10 @@ const projects: Project[] = [
     image: "/Images/SRPC/SRPC Cover.jpg",
     category: "Event Design",
     description: `Worked as a Graphic Designer for the Student Relay Programming Competition.
-Designed posters and ID cards based on a consistent visual identity.
-Contributed to creating a clear and unified visual style for the event.
-Collaborated with the team in a fast-paced, team-oriented environment.
-Gained valuable experience in teamwork and creative collaboration`,
+    Designed posters and ID cards based on a consistent visual identity.
+    Contributed to creating a clear and unified visual style for the event.
+    Collaborated with the team in a fast-paced, team-oriented environment.
+    Gained valuable experience in teamwork and creative collaboration`,
     additionalImages: [
       '/Images/SRPC/14 Day Countdown Poster .jpg',
       '/Images/SRPC/Awards.jpg',
@@ -133,7 +133,40 @@ Gained valuable experience in teamwork and creative collaboration`,
       '/Images/SRPC/Id Card abyar.jpg'
     ],
     fileLink2 : "https://www.linkedin.com/posts/shayan-abyar-87b46832a_%D8%AA%D8%AC%D8%B1%D8%A8%D9%87%D8%A7%DB%8C-%D8%AC%D8%B0%D8%A7%D8%A8-%D8%A7%D8%B2-%DA%A9%D8%A7%D8%B1-%D8%AA%DB%8C%D9%85%DB%8C-%D8%AF%D8%B1-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%86%D9%88%DB%8C%D8%B3%DB%8C-activity-7409345970850873344-kkBn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFMBcN8B91xG6o9Gp7UM3Ycgl9ClGjwLWdk",
-  }
+  },
+  {
+    id: 9,
+    title: "Lenzi Shop — Website Design",
+    image: "/Images/Lenzi shop/Cover Lenzi.jpg",
+    category: "UI",
+    description : `Excited to share a concept UI design project for a camera and accessories e-commerce website.
+
+This practice project focuses on a minimal design with simple and accessible navigation, aiming to create a smooth and user-friendly shopping experience.
+
+Key features of the concept include:
+
+A product comparison feature that allows users to compare two cameras side by side
+
+A dedicated comparison page designed for clarity and ease of use
+
+A camera finder flow that helps users choose the right camera based on their budget, experience level, and whether they focus on photography or videography, through a set of guided questions
+
+This project was a great opportunity to practice user-centered design and explore practical e-commerce features.`,
+    additionalImages: [
+      "/Images/Lenzi shop/1.jpg",
+      "/Images/Lenzi shop/2.jpg",
+      "/Images/Lenzi shop/3.jpg",
+      "/Images/Lenzi shop/4.jpg",
+      "/Images/Lenzi shop/5.jpg",
+      "/Images/Lenzi shop/6.jpg",
+      "/Images/Lenzi shop/7.jpg",
+      "/Images/Lenzi shop/8.jpg",
+      "/Images/Lenzi shop/9.jpg",
+      "/Images/Lenzi shop/10.jpg",
+      "/Images/Lenzi shop/11.jpg",
+      "/Images/Lenzi shop/12.jpg",
+    ]
+  },
   
 ];
 
